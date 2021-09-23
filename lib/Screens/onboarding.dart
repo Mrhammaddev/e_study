@@ -1,4 +1,3 @@
-import 'package:e_study/Screens/home.dart';
 import 'package:e_study/Screens/login.dart';
 import 'package:e_study/Utils/constants.dart';
 import 'package:flutter/foundation.dart';

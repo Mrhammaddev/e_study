@@ -6,6 +6,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
+import 'home.dart';
+
 class Login extends StatefulWidget {
   final TextEditingController emailController = TextEditingController();
   final TextEditingController passwordController = TextEditingController();
@@ -152,8 +154,7 @@ class _LoginState extends State<Login> {
                     SizedBox(
                       height: 5,
                     ),
-                    Padding(
-                      padding: EdgeInsets.only(left: 170.0),
+                    Center(
                       child: TextButton(
                         onPressed: () {
                           Navigator.push(
@@ -173,7 +174,10 @@ class _LoginState extends State<Login> {
                     ),
                     Center(
                       child: MaterialButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.push(context,
+                              MaterialPageRoute(builder: (_) => Home()));
+                        },
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.all(
                             Radius.circular(20.0),

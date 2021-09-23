@@ -1,14 +1,20 @@
 import 'package:e_study/Screens/EnterPin.dart';
-import 'package:e_study/Screens/login.dart';
 import 'package:e_study/Utils/constants.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:intl_phone_number_input/intl_phone_number_input.dart';
 
-class EnterphoneNo extends StatelessWidget {
+class EnterphoneNo extends StatefulWidget {
+  @override
+  State<EnterphoneNo> createState() => _EnterphoneNoState();
+}
+
+class _EnterphoneNoState extends State<EnterphoneNo> {
   final TextEditingController controller = TextEditingController();
+
   PhoneNumber number = PhoneNumber(isoCode: 'NG');
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(

@@ -36,6 +36,9 @@ dependencies:
   intl_phone_number_input: ^0.7.0+2
   get: ^4.3.8
   custom_pin_entry_field: ^2.0.2
+  google_fonts: ^2.1.0
+  readmore: ^2.1.0
+  carousel_slider: ^4.0.0
 
 dev_dependencies:
   flutter_test:

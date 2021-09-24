@@ -1,7 +1,6 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:e_study/views/Search/search.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 import 'package:e_study/utils/constants.dart';
 import 'package:e_study/utils/db_icons.dart';

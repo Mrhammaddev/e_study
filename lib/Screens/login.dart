@@ -1,12 +1,11 @@
 import 'package:e_study/Screens/forgetPassword.dart';
 import 'package:e_study/Screens/signup.dart';
 import 'package:e_study/Utils/constants.dart';
+import 'package:e_study/views/Home/homeview.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-
-import 'home.dart';
 
 class Login extends StatefulWidget {
   final TextEditingController emailController = TextEditingController();
@@ -176,7 +175,7 @@ class _LoginState extends State<Login> {
                       child: MaterialButton(
                         onPressed: () {
                           Navigator.push(context,
-                              MaterialPageRoute(builder: (_) => Home()));
+                              MaterialPageRoute(builder: (_) => HomeView()));
                         },
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.all(

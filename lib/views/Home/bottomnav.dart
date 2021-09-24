@@ -19,8 +19,8 @@ class BottomPage extends StatefulWidget {
 class _BottomPageState extends State<BottomPage> {
   int _selectedIndex = 0;
 
-  static const TextStyle optionStyle =
-      TextStyle(fontSize: 30, fontWeight: FontWeight.bold, color: Colors.white);
+  // static const TextStyle optionStyle =
+  //     TextStyle(fontSize: 30, fontWeight: FontWeight.bold, color: Colors.white);
 
   // ignore: prefer_final_fields
   static List<Widget> _widgetOption = <Widget>[

@@ -1,4 +1,3 @@
-import 'package:carousel_slider/carousel_slider.dart';
 import 'package:e_study/utils/constants.dart';
 import 'package:e_study/utils/db_icons.dart';
 import 'package:e_study/views/Home/homeview.dart';

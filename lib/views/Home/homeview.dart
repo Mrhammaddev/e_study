@@ -1,10 +1,10 @@
-import 'package:carousel_slider/carousel_slider.dart';
 import 'package:e_study/views/Search/search.dart';
 import 'package:flutter/material.dart';
 
 import 'package:e_study/utils/constants.dart';
 import 'package:e_study/utils/db_icons.dart';
 import 'package:e_study/views/Home/notification.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 final List<String> imglist = [
   'assets/images/1s.png',
